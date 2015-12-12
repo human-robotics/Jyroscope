@@ -188,6 +188,7 @@ public class Jyroscope {
                                 else if (isInterval) {
                                     long now = System.currentTimeMillis();
                                     long sleep = repeat.interval() - (now - start);
+                                    start += repeat.interval();
                                     if (sleep > 0)
                                         Thread.sleep(sleep);
                                 }

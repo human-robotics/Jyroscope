@@ -5,6 +5,8 @@ For full information, please see http://www.benjaminjohnston.com.au/jyroscope
 
 This code is very rough. Consider it to be pre-alpha.
 
+Licence: [Creative Commons Zero / Public Domain license](https://creativecommons.org/publicdomain/zero/1.0/)
+
 #### Benefits
 - No dependencies
 - Easy to install without ROS (e.g., works on Windows and Mac)

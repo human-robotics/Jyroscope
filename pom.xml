@@ -99,4 +99,12 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub human-robotics Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/human-robotics/Jyroscope</url>
+		</repository>
+	</distributionManagement>
 </project>
